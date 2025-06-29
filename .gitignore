@@ -1,0 +1,34 @@
+.DS_Store
+node_modules
+dist
+/zzz
+*.7z
+*.zip
+docs/.vuepress/.cache/
+docs/.vuepress/.temp/
+docs/.vuepress/dist/
+docs/.vuepress/public/
+*.assets/
+*.pdf
+*.sb3
+*.mp4
+*.xlsx
+
+# local env files
+.env.local
+.env.*.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Editor directories and files
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
