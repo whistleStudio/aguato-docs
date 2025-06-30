@@ -30,6 +30,8 @@ export default defineUserConfig({
         link: "/usage/service.md",
         children: [
           {text: "物联服务的建立", link: "/usage/service.md"},
+          {text: "物联服务的连接", link: "/usage/connect.md"},
+          {text: "发布和订阅", link: "/usage/behavior.md"},
         ]
       },
       // {text: "使用", link: "/usage.md"},
