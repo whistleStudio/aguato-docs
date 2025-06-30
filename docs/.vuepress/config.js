@@ -23,9 +23,16 @@ export default defineUserConfig({
     contributors: "Whistle Wang",
 
     sidebar: [
-      {text: "介绍", link: "/introduction.md"},
+      {text: "简介", link: "/introduction.md"},
       {text: "安装", link: "/installation.md"},
-      {text: "使用", link: "/usage.md"},
+      {
+        text: "使用",
+        link: "/usage/service.md",
+        children: [
+          {text: "物联服务的建立", link: "/usage/service.md"},
+        ]
+      },
+      // {text: "使用", link: "/usage.md"},
       // {
       //   text: "准备工作",
       //   link: "/getting-started/快速索引.md",
