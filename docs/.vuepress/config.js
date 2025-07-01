@@ -28,6 +28,7 @@ export default defineUserConfig({
       {
         text: "使用",
         link: "/usage/service.md",
+        collapsible: true,
         children: [
           {text: "物联服务的建立", link: "/usage/service.md"},
           {text: "物联服务的连接", link: "/usage/connect.md"},
