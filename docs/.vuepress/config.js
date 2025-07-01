@@ -32,8 +32,10 @@ export default defineUserConfig({
           {text: "物联服务的建立", link: "/usage/service.md"},
           {text: "物联服务的连接", link: "/usage/connect.md"},
           {text: "发布和订阅", link: "/usage/behavior.md"},
+          {text: "可视化图表面板", link: "/usage/chart.md"},
         ]
       },
+      {text: "随便写点", link: "/about.md"},
       // {text: "使用", link: "/usage.md"},
       // {
       //   text: "准备工作",
