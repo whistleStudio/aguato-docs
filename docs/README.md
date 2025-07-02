@@ -1,6 +1,6 @@
 # 简介
 
-<span style="color: var(--secondary-color)">阿瓜物联 (Aguato)</span> 是一款集物联服务端和客户端创建、可视化图表展演的物联网调试工具。
+<span style="color: var(--secondary-color)">阿瓜物联 (Aguato)</span> 是由<a href="https://www.whistlestudio.cn" target="_blank">whistle</a>一款集物联服务端和客户端创建、可视化图表展演的物联网调试工具。
 
 其操作界面由`本地客户端管理`、`项目管理`和`可视化图表面板管理`构成。
 
@@ -16,4 +16,4 @@
 
 集成多种图表组件，并根据物联网发布/订阅模式进行分类；图表组件可自由拖拽、调整大小及部分样式；支持亮/暗两种主题模式；画布背景可调。图表根据项目独立进行管理，其布局及组件属性本地化存储，便于二次操作。
 
-<!-- 贴个预览图 -->
+<video src="/images/20250701_211242.mp4" controls width="800"></video>
