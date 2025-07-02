@@ -16,4 +16,16 @@
 
 集成多种图表组件，并根据物联网发布/订阅模式进行分类；图表组件可自由拖拽、调整大小及部分样式；支持亮/暗两种主题模式；画布背景可调。图表根据项目独立进行管理，其布局及组件属性本地化存储，便于二次操作。
 
-<video src="/images/20250701_211242.mp4" controls width="800"></video>
+<video src="/images/20250701_211242.mp4" controls></video>
+
+<style lang="scss" scoped>
+  video {
+    max-width: 800px;
+  }
+  @media (max-width: 400px) {
+    video {
+      max-width: 350px;
+
+    }
+  }
+</style>
